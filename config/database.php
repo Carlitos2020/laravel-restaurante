@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'ls-be265ec2f0719adc02470befd7b14c67e60eddc1.csov3oowpvgv.us-east-1.rds.amazonaws.com'),
+            'host' => env('DB_HOST', 'bsk9eyogyrcaz2uyqfd1-mysql.services.clever-cloud.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'restaurante'),
-            'username' => env('DB_USERNAME', 'dbmasteruser'),
-            'password' => env('DB_PASSWORD', '^!.Ko.y3wrV`-n?mPGHi1jJ_aEpwx5}|'),
+            'database' => env('DB_DATABASE', 'bsk9eyogyrcaz2uyqfd1'),
+            'username' => env('DB_USERNAME', 'ulugdp5yol0fgqtb'),
+            'password' => env('DB_PASSWORD', 'o0L3aeqasE5HllCE1UIv '),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
